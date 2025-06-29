@@ -1,0 +1,85 @@
+review_id,user_id,product_id,rating,review_text
+1,1,4,3,Love this home & garden item. durability exceeded expectations.
+2,1,4,4,Love this home & garden item. price_range exceeded expectations.
+3,2,21,4,Great automotive product! Really impressed with the durability.
+4,2,17,5,Great automotive product! Really impressed with the brand_reputation.
+5,2,9,4,Great health product! Really impressed with the innovation_level.
+6,2,42,3,Great automotive product! Really impressed with the durability.
+7,2,30,5,Amazing clothing! Perfect durability for the price.
+8,2,49,5,Good value for money. The innovation_level aspect is excellent.
+9,2,1,1,Great clothing product! Really impressed with the durability.
+10,2,40,3,Good value for money. The price_range aspect is excellent.
+11,3,1,3,Great clothing product! Really impressed with the durability.
+12,3,43,4,Good value for money. The eco_friendly aspect is excellent.
+13,3,8,5,Amazing clothing! Perfect brand_reputation for the price.
+14,3,10,4,Good value for money. The innovation_level aspect is excellent.
+15,4,36,3,Great home & garden product! Really impressed with the price_range.
+16,4,45,5,Love this sports item. innovation_level exceeded expectations.
+17,4,35,5,Amazing beauty! Perfect brand_reputation for the price.
+18,4,24,3,Love this toys item. durability exceeded expectations.
+19,5,16,5,Good value for money. The brand_reputation aspect is excellent.
+20,5,11,5,Good value for money. The durability aspect is excellent.
+21,5,7,5,Amazing sports! Perfect brand_reputation for the price.
+22,5,15,5,Amazing health! Perfect price_range for the price.
+23,5,30,5,Love this clothing item. innovation_level exceeded expectations.
+24,5,15,1,Amazing health! Perfect innovation_level for the price.
+25,6,23,4,Great automotive product! Really impressed with the price_range.
+26,6,33,5,Great sports product! Really impressed with the durability.
+27,6,3,5,Amazing food! Perfect brand_reputation for the price.
+28,7,27,4,Good value for money. The eco_friendly aspect is excellent.
+29,8,41,4,Great home & garden product! Really impressed with the eco_friendly.
+30,8,22,3,Great clothing product! Really impressed with the eco_friendly.
+31,8,49,4,Love this automotive item. brand_reputation exceeded expectations.
+32,8,44,3,Good value for money. The durability aspect is excellent.
+33,8,15,4,Good value for money. The durability aspect is excellent.
+34,8,10,4,Amazing food! Perfect price_range for the price.
+35,8,3,5,Amazing food! Perfect eco_friendly for the price.
+36,8,31,4,Great food product! Really impressed with the price_range.
+37,9,12,4,Love this automotive item. innovation_level exceeded expectations.
+38,9,34,5,Amazing toys! Perfect brand_reputation for the price.
+39,9,4,2,Amazing home & garden! Perfect durability for the price.
+40,9,16,5,Love this home & garden item. brand_reputation exceeded expectations.
+41,10,19,1,Love this health item. durability exceeded expectations.
+42,11,2,4,Good value for money. The brand_reputation aspect is excellent.
+43,11,22,5,Great clothing product! Really impressed with the price_range.
+44,11,44,1,Amazing clothing! Perfect brand_reputation for the price.
+45,11,47,5,Great toys product! Really impressed with the price_range.
+46,12,35,3,Good value for money. The durability aspect is excellent.
+47,12,50,5,Love this automotive item. innovation_level exceeded expectations.
+48,12,3,5,Love this food item. durability exceeded expectations.
+49,12,16,5,Amazing home & garden! Perfect eco_friendly for the price.
+50,12,2,5,Amazing sports! Perfect price_range for the price.
+51,13,37,3,Great home & garden product! Really impressed with the durability.
+52,13,25,4,Love this clothing item. brand_reputation exceeded expectations.
+53,13,45,1,Amazing sports! Perfect price_range for the price.
+54,14,30,4,Good value for money. The innovation_level aspect is excellent.
+55,14,10,4,Love this food item. durability exceeded expectations.
+56,14,12,3,Great automotive product! Really impressed with the eco_friendly.
+57,14,42,5,Good value for money. The eco_friendly aspect is excellent.
+58,14,40,4,Love this toys item. durability exceeded expectations.
+59,15,16,4,Amazing home & garden! Perfect price_range for the price.
+60,15,49,4,Great automotive product! Really impressed with the brand_reputation.
+61,15,45,5,Good value for money. The durability aspect is excellent.
+62,15,42,2,Love this automotive item. brand_reputation exceeded expectations.
+63,16,35,2,Amazing beauty! Perfect eco_friendly for the price.
+64,16,12,2,Great automotive product! Really impressed with the innovation_level.
+65,16,14,2,Good value for money. The price_range aspect is excellent.
+66,16,49,3,Good value for money. The price_range aspect is excellent.
+67,16,39,3,Great toys product! Really impressed with the innovation_level.
+68,17,31,4,Great food product! Really impressed with the price_range.
+69,17,5,5,Love this toys item. eco_friendly exceeded expectations.
+70,17,32,3,Great toys product! Really impressed with the brand_reputation.
+71,17,37,5,Great home & garden product! Really impressed with the durability.
+72,17,44,4,Great clothing product! Really impressed with the brand_reputation.
+73,18,37,5,Great home & garden product! Really impressed with the innovation_level.
+74,18,48,4,Amazing health! Perfect brand_reputation for the price.
+75,18,49,4,Amazing automotive! Perfect durability for the price.
+76,18,41,5,Great home & garden product! Really impressed with the durability.
+77,19,17,2,Great automotive product! Really impressed with the price_range.
+78,19,38,4,Love this electronics item. innovation_level exceeded expectations.
+79,19,13,4,Amazing beauty! Perfect brand_reputation for the price.
+80,19,8,4,Good value for money. The eco_friendly aspect is excellent.
+81,20,3,4,Amazing food! Perfect durability for the price.
+82,20,48,4,Love this health item. durability exceeded expectations.
+83,20,39,2,Amazing toys! Perfect price_range for the price.
+84,20,15,5,Love this health item. eco_friendly exceeded expectations.

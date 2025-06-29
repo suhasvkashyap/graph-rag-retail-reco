@@ -1,0 +1,287 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dataGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#45a049;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="ibmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1f70c1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f5499;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="langchainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e55a2b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="graphGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9C27B0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7B1FA2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="vectorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F57C00;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="appGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E91E63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C2185B;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="3" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa" stroke="none"/>
+  
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">
+    Graph-RAG Retail Recommendation System Architecture
+  </text>
+  
+  <!-- Data Sources Layer -->
+  <rect x="50" y="80" width="280" height="180" rx="15" fill="url(#dataGrad)" filter="url(#shadow)"/>
+  <text x="190" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    📊 Data Sources
+  </text>
+  
+  <!-- CSV Files -->
+  <rect x="70" y="120" width="240" height="30" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="190" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    🗃️ product_features.csv
+  </text>
+  
+  <rect x="70" y="155" width="240" height="30" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="190" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    🛒 purchase_history.csv
+  </text>
+  
+  <rect x="70" y="190" width="240" height="30" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="190" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    👀 browsing_history.csv
+  </text>
+  
+  <rect x="70" y="225" width="240" height="30" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="190" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    ⭐ product_reviews.csv
+  </text>
+  
+  <!-- IBM watsonx.ai -->
+  <rect x="400" y="80" width="200" height="120" rx="15" fill="url(#ibmGrad)" filter="url(#shadow)"/>
+  <text x="500" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    🤖 IBM watsonx.ai
+  </text>
+  
+  <rect x="420" y="120" width="160" height="25" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="500" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    Llama-3-3-70B LLM
+  </text>
+  
+  <rect x="420" y="150" width="160" height="25" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="500" y="167" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    Granite Embeddings
+  </text>
+  
+  <!-- LangChain -->
+  <rect x="650" y="80" width="150" height="120" rx="15" fill="url(#langchainGrad)" filter="url(#shadow)"/>
+  <text x="725" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    🔗 LangChain
+  </text>
+  
+  <rect x="670" y="120" width="110" height="25" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="725" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    Document Class
+  </text>
+  
+  <rect x="670" y="150" width="110" height="25" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="725" y="167" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    Embeddings Base
+  </text>
+  
+  <!-- Knowledge Graph -->
+  <rect x="50" y="300" width="300" height="180" rx="15" fill="url(#graphGrad)" filter="url(#shadow)"/>
+  <text x="200" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    🕸️ Knowledge Graph (NetworkX)
+  </text>
+  
+  <!-- Graph nodes -->
+  <circle cx="120" cy="360" r="20" fill="rgba(255,255,255,0.9)"/>
+  <text x="120" y="366" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Users</text>
+  
+  <circle cx="180" cy="360" r="20" fill="rgba(255,255,255,0.9)"/>
+  <text x="180" y="366" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Products</text>
+  
+  <circle cx="240" cy="360" r="20" fill="rgba(255,255,255,0.9)"/>
+  <text x="240" y="366" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Features</text>
+  
+  <circle cx="280" cy="360" r="20" fill="rgba(255,255,255,0.9)"/>
+  <text x="280" y="366" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">Reviews</text>
+  
+  <!-- Graph connections -->
+  <line x1="140" y1="360" x2="160" y2="360" stroke="white" stroke-width="2"/>
+  <line x1="200" y1="360" x2="220" y2="360" stroke="white" stroke-width="2"/>
+  <line x1="260" y1="360" x2="280" y2="360" stroke="white" stroke-width="2"/>
+  
+  <rect x="70" y="400" width="260" height="60" rx="8" fill="rgba(255,255,255,0.9)"/>
+  <text x="200" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">
+    Edge Types:
+  </text>
+  <text x="200" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    purchased • browsed • has_feature
+  </text>
+  <text x="200" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    wrote_review • reviews_product
+  </text>
+  
+  <!-- Vector Store -->
+  <rect x="400" y="300" width="200" height="120" rx="15" fill="url(#vectorGrad)" filter="url(#shadow)"/>
+  <text x="500" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    🗃️ Vector Store
+  </text>
+  
+  <rect x="420" y="345" width="160" height="25" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="500" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    Product Embeddings
+  </text>
+  
+  <rect x="420" y="375" width="160" height="25" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="500" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    Similarity Search
+  </text>
+  
+  <!-- Graph-RAG System -->
+  <rect x="650" y="300" width="200" height="180" rx="15" fill="url(#appGrad)" filter="url(#shadow)"/>
+  <text x="750" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    🎯 Graph-RAG System
+  </text>
+  
+  <rect x="670" y="345" width="160" height="25" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="750" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    GraphRAGRetriever
+  </text>
+  
+  <rect x="670" y="375" width="160" height="25" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="750" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    GraphRAGChain
+  </text>
+  
+  <rect x="670" y="405" width="160" height="25" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="750" y="422" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    Context Generation
+  </text>
+  
+  <rect x="670" y="435" width="160" height="25" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="750" y="452" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    Recommendation Engine
+  </text>
+  
+  <!-- Output Layer -->
+  <rect x="350" y="520" width="500" height="120" rx="15" fill="#6c757d" filter="url(#shadow)"/>
+  <text x="600" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    📱 Recommendation Outputs
+  </text>
+  
+  <rect x="380" y="565" width="140" height="25" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="450" y="582" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    🏃 Sports Products
+  </text>
+  
+  <rect x="530" y="565" width="140" height="25" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="600" y="582" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    🌱 Sustainability Items
+  </text>
+  
+  <rect x="680" y="565" width="140" height="25" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="750" y="582" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    🎧 Complementary
+  </text>
+  
+  <rect x="455" y="595" width="140" height="25" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <text x="525" y="612" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    📊 Graph Visualization
+  </text>
+  
+  <!-- Flow Arrows -->
+  <!-- Data to Graph -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <path d="M 330 170 L 370 170 L 370 280 L 200 280 L 200 300" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="285" y="235" font-family="Arial, sans-serif" font-size="10" fill="#666">Graph Construction</text>
+  
+  <!-- IBM to Vector Store -->
+  <path d="M 500 200 Q 500 250 500 300" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="510" y="250" font-family="Arial, sans-serif" font-size="10" fill="#666">Embeddings</text>
+  
+  <!-- LangChain to Graph-RAG -->
+  <path d="M 725 200 Q 725 250 725 300" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="735" y="250" font-family="Arial, sans-serif" font-size="10" fill="#666">Framework</text>
+  
+  <!-- Graph to Graph-RAG (properly routed around Vector Store) -->
+  <path d="M 350 340 L 380 340 L 380 280 L 630 280 L 630 340 L 650 340" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="450" y="270" font-family="Arial, sans-serif" font-size="10" fill="#666">Context Retrieval</text>
+  
+  <!-- Vector Store to Graph-RAG -->
+  <path d="M 600 360 L 650 360" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="610" y="350" font-family="Arial, sans-serif" font-size="10" fill="#666">Similarity</text>
+  
+  <!-- Graph-RAG to Outputs -->
+  <path d="M 750 480 Q 750 500 600 520" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="675" y="500" font-family="Arial, sans-serif" font-size="10" fill="#666">Recommendations</text>
+  
+  <!-- Data Flow Labels -->
+  <rect x="900" y="100" width="250" height="200" rx="10" fill="#f8f9fa" stroke="#ddd" stroke-width="1"/>
+  <text x="1025" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+    🔄 Data Flow
+  </text>
+  
+  <text x="920" y="150" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    1. CSV data → Knowledge Graph
+  </text>
+  <text x="920" y="170" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    2. Product descriptions → Embeddings
+  </text>
+  <text x="920" y="190" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    3. User query → Graph context retrieval
+  </text>
+  <text x="920" y="210" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    4. Vector similarity search
+  </text>
+  <text x="920" y="230" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    5. LLM generation with context
+  </text>
+  <text x="920" y="250" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    6. Personalized recommendations
+  </text>
+  <text x="920" y="270" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    7. Formatted display outputs
+  </text>
+  
+  <!-- Technology Stack -->
+  <rect x="900" y="350" width="250" height="150" rx="10" fill="#f8f9fa" stroke="#ddd" stroke-width="1"/>
+  <text x="1025" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">
+    🛠️ Technology Stack
+  </text>
+  
+  <text x="920" y="400" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • NetworkX: Graph construction
+  </text>
+  <text x="920" y="420" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • IBM watsonx.ai: LLM & Embeddings
+  </text>
+  <text x="920" y="440" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • LangChain: RAG framework
+  </text>
+  <text x="920" y="460" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Pandas: Data processing
+  </text>
+  <text x="920" y="480" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Matplotlib: Visualization
+  </text>
+  
+  <!-- Footer -->
+  <text x="600" y="780" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">
+    Graph-RAG Retail Recommendation System - Complete Architecture Overview
+  </text>
+</svg>
