@@ -76,7 +76,7 @@ HF_TOKEN=your_huggingface_token_here
 
 4. **Run the notebook**:
 ```bash
-jupyter notebook graph_rag_retail_demo_working.ipynb
+jupyter notebook graph_rag_retail_demo.ipynb
 ```
 
 ## 📖 How to Use
